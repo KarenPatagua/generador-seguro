@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generador Seguro de Contraseñas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Generador Seguro de Contraseñas</h1>
+    <label for="length">Longitud:</label>
+    <input type="number" id="length" value="12" min="4" max="128" />
+    <button onclick="generate()">Generar</button>
+
+    <p id="password"></p>
+    <div id="strength" class="strength">Seguridad: —</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
