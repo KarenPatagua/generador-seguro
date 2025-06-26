@@ -7,12 +7,6 @@ Está contenerizada usando Docker con la imagen oficial de NGINX en su versión 
 
 ---
 
-## Vista previa
-
-![Generador de Contraseñas Seguras](https://dummyimage.com/900x400/3b82f6/ffffff&text=Generador+de+Contraseñas+Seguras)
-
----
-
 ##  Tecnologías utilizadas
 
 -  HTML5 + CSS3
